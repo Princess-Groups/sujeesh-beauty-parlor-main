@@ -1,0 +1,1 @@
+const s="/assets/salon-hair-treatment-BtcvEMUS.jpg",a="/assets/salon-haircut-TBtoYSnH.jpg",t="/assets/salon-pedicure-X7gHSwIs.jpg",n="/assets/salon-facial-DHAsuspJ.jpg",e="/assets/salon-threading-CdmurYdH.jpg",o="/assets/salon-waxing-BmgnsOFE.jpg";export{a as c,n as f,s as h,t as p,e as t,o as w};

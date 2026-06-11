@@ -1,0 +1,119 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-pista: var(--pista);
+  --color-peach: var(--peach);
+  --color-gold: var(--gold);
+  --color-whatsapp: var(--whatsapp);
+
+  --font-display: "Playfair Display", "Cormorant Garamond", serif;
+  --font-sans: "Inter", "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+:root {
+  --radius: 1rem;
+
+  --background: oklch(0.985 0.012 95);
+  --foreground: oklch(0.22 0.04 150);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.04 150);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.22 0.04 150);
+
+  --pista: oklch(0.82 0.09 145);
+  --peach: oklch(0.85 0.09 55);
+  --gold: oklch(0.78 0.12 85);
+
+  --primary: oklch(0.55 0.10 150);
+  --primary-foreground: oklch(0.99 0.01 95);
+
+  --secondary: oklch(0.92 0.06 60);
+  --secondary-foreground: oklch(0.30 0.05 150);
+
+  --muted: oklch(0.96 0.02 100);
+  --muted-foreground: oklch(0.48 0.03 140);
+
+  --accent: oklch(0.88 0.08 55);
+  --accent-foreground: oklch(0.28 0.05 150);
+
+  --destructive: oklch(0.62 0.22 27);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --border: oklch(0.90 0.03 90);
+  --input: oklch(0.90 0.03 90);
+  --ring: oklch(0.78 0.09 130);
+
+  --whatsapp: oklch(0.65 0.17 145);
+
+  --gradient-hero: linear-gradient(135deg, oklch(0.90 0.07 145) 0%, oklch(0.92 0.08 60) 100%);
+  --gradient-soft: linear-gradient(180deg, oklch(0.97 0.03 100) 0%, oklch(0.94 0.06 60) 100%);
+  --gradient-gold: linear-gradient(135deg, oklch(0.82 0.11 80) 0%, oklch(0.88 0.10 60) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--pista) 0%, var(--peach) 100%);
+
+  --shadow-soft: 0 10px 40px -10px oklch(0.55 0.10 150 / 0.18);
+  --shadow-luxe: 0 25px 60px -20px oklch(0.55 0.10 60 / 0.30);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.01em; }
+}
+
+@layer utilities {
+  .bg-gradient-hero { background: var(--gradient-hero); }
+  .bg-gradient-soft { background: var(--gradient-soft); }
+  .bg-gradient-gold { background: var(--gradient-gold); }
+  .bg-gradient-accent { background: var(--gradient-accent); }
+  .text-gradient { background: var(--gradient-accent); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-luxe { box-shadow: var(--shadow-luxe); }
+  .animate-fade-up { animation: fade-up 0.7s ease-out both; }
+  .animate-fade-in { animation: fade-in 0.6s ease-out both; }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
