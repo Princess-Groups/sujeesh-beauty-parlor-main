@@ -20,7 +20,7 @@ import "stream";
 import "../_libs/isbot.mjs";
 import "../_libs/tanstack__query-core.mjs";
 import "../_libs/tanstack__react-query.mjs";
-const trainerImg = "/assets/trainer-DdEtbEJ9.jpg";
+import trainerImg from "~/assets/trainer-new.jpg";
 const bridalImg = "/assets/bridal-5-dfFaC-cc.jpeg";
 function Home() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
