@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { S as Section, W as WaButton } from "./Section-BxkKs8Cm.mjs";
-import { S as SITE, w as wa } from "./router-CiQqroTe.mjs";
+import { S as SITE, w as wa } from "./router-11ZjEogP.mjs";
 import { b as MessageCircle, P as Phone, a as MapPin, C as Clock, I as Instagram } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";
 import "../_libs/tanstack__react-query.mjs";

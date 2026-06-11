@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
 import { W as WaButton, S as Section } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-CiQqroTe.mjs";
+import { w as wa } from "./router-11ZjEogP.mjs";
 import { h as heroImg } from "./hero-salon-OiVVmgKh.mjs";
 import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { a as MapPin, d as Sparkles, f as ArrowRight, S as Star, A as Award, E as Earth, G as GraduationCap, g as Scissors, c as Crown } from "../_libs/lucide-react.mjs";
@@ -20,7 +20,7 @@ import "stream";
 import "../_libs/isbot.mjs";
 import "../_libs/tanstack__query-core.mjs";
 import "../_libs/tanstack__react-query.mjs";
-import trainerImg from "/assets/trainer-new.jpg";
+const trainerImg = "/assets/trainer-new-CM2c1Mnf.jpg";
 const bridalImg = "/assets/bridal-5-dfFaC-cc.jpeg";
 function Home() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
@@ -72,7 +72,7 @@ function Home() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Section, { eyebrow: "Meet your trainer", title: "Sujatha Krishnan", subtitle: "Certified International Makeup Artist & Trainer · Since 1996", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid items-center gap-10 md:grid-cols-2", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative mx-auto max-w-md", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -inset-3 rounded-3xl bg-gradient-accent opacity-40 blur-xl" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: "/assets/trainer-new.jpg", width: 896, height: 1152, loading: "lazy", alt: "Sujatha Krishnan — Certified International Makeup Artist & Trainer, founder of Sujess Beauty Academy", className: "relative w-full rounded-3xl object-cover shadow-luxe" })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: trainerImg, width: 896, height: 1152, loading: "lazy", alt: "Sujatha Krishnan — Certified International Makeup Artist & Trainer, founder of Sujess Beauty Academy", className: "relative w-full rounded-3xl object-cover shadow-luxe" })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-lg leading-relaxed text-foreground/80", children: [
