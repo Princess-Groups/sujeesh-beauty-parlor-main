@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { S as Section, W as WaButton } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-n7KBB1tt.mjs";
+import { w as wa } from "./router-Bvd3hJhY.mjs";
 import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { G as GraduationCap, d as Sparkles, A as Award, B as BookOpen, C as Clock, e as CircleCheck } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";
@@ -84,7 +84,7 @@ function AcademyPage() {
           "Become a ",
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient", children: "Certified Professional Beautician" })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-foreground/75 md:text-lg", children: "Learn from Lakme international trainer Sujatha in Mettupalayam's only dedicated professional training institute." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-foreground/75 md:text-lg", children: "Learn from international trainer Sujatha in Mettupalayam's only dedicated professional training institute." }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-accent px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-soft", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "h-4 w-4" }),
           " FREE TRIAL AVAILABLE FOR ALL COURSES"
@@ -98,7 +98,7 @@ function AcademyPage() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Section, { eyebrow: "Why Sujess Academy", title: "A real institute. Real outcomes.", className: "bg-gradient-soft rounded-t-[3rem]", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid gap-5 md:grid-cols-4", children: [{
       Icon: Award,
       title: "International Trainer",
-      desc: "Lakme certified, global experience"
+      desc: "Certified, global experience"
     }, {
       Icon: BookOpen,
       title: "Practical Training",

@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { W as WaButton, S as Section } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-n7KBB1tt.mjs";
+import { w as wa } from "./router-Bvd3hJhY.mjs";
 import { b as bridal } from "./bridal-BX3Du8Hi.mjs";
 import { c as Crown, d as Sparkles } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";

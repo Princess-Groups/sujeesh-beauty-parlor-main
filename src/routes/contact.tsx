@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Sujess Beauty Salon & Academy, Mettupalayam" },
-      { name: "description", content: "Visit, call or WhatsApp Sujess Beauty Salon & Academy in Mettupalayam, Tamil Nadu." },
+      { name: "description", content: "Visit, call or WhatsApp Sujess Beauty Salon & Academy in Mettupalayam, Karamadai & Velankanni." },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
   }),

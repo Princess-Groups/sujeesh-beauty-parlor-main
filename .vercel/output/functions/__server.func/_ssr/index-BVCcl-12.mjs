@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
 import { W as WaButton, S as Section } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-n7KBB1tt.mjs";
+import { w as wa } from "./router-Bvd3hJhY.mjs";
 import { h as heroImg } from "./hero-salon-OiVVmgKh.mjs";
 import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { a as MapPin, d as Sparkles, f as ArrowRight, S as Star, A as Award, E as Earth, G as GraduationCap, g as Scissors, c as Crown } from "../_libs/lucide-react.mjs";
@@ -32,7 +32,7 @@ function Home() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap items-center gap-2", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 rounded-full border border-primary/20 bg-card/70 px-3 py-1 text-xs font-medium text-primary backdrop-blur", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "h-3.5 w-3.5" }),
-              " Mettupalayam, Tamil Nadu"
+              " Mettupalayam, Karamadai & Velankanni"
             ] }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-2 rounded-full bg-gradient-accent px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.15em] text-primary-foreground shadow-soft", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "h-3.5 w-3.5" }),
@@ -77,7 +77,7 @@ function Home() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-lg leading-relaxed text-foreground/80", children: [
           "Certified Professional Trainer trained in ",
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-foreground", children: "Sri Lanka and Malaysia" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold text-foreground", children: "Malaysia and Sri Lanka" }),
           ". Successfully completed international Makeup Artist courses with advanced expertise in bridal and beauty services — bringing world-class technique and personal mentorship to every student and bride."
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "mt-6 space-y-3", children: [{
@@ -85,7 +85,7 @@ function Home() {
           text: "Served clients in Sri Lanka, Malaysia & more"
         }, {
           icon: Award,
-          text: "Lakme International Trainer"
+          text: "International Trainer"
         }, {
           icon: GraduationCap,
           text: "Mentor to 200+ certified beauticians"

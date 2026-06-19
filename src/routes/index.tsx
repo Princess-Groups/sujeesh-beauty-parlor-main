@@ -29,7 +29,7 @@ function Home() {
           <div className="animate-fade-up">
             <div className="flex flex-wrap items-center gap-2">
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-card/70 px-3 py-1 text-xs font-medium text-primary backdrop-blur">
-                <MapPin className="h-3.5 w-3.5" /> Mettupalayam, Tamil Nadu
+                <MapPin className="h-3.5 w-3.5" /> Mettupalayam, Karamadai & Velankanni
               </div>
               <div className="inline-flex items-center gap-2 rounded-full bg-gradient-accent px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.15em] text-primary-foreground shadow-soft">
                 <Sparkles className="h-3.5 w-3.5" /> Exclusive for Women
@@ -103,7 +103,7 @@ function Home() {
           </div>
           <div>
             <p className="text-lg leading-relaxed text-foreground/80">
-              Certified Professional Trainer trained in <span className="font-semibold text-foreground">Sri Lanka and Malaysia</span>.
+              Certified Professional Trainer trained in <span className="font-semibold text-foreground">Malaysia and Sri Lanka</span>.
               Successfully completed international Makeup Artist courses with advanced expertise in
               bridal and beauty services — bringing world-class technique and personal mentorship to
               every student and bride.
@@ -111,7 +111,7 @@ function Home() {
             <ul className="mt-6 space-y-3">
               {[
                 { icon: Globe2, text: "Served clients in Sri Lanka, Malaysia & more" },
-                { icon: Award, text: "Lakme International Trainer" },
+                { icon: Award, text: "International Trainer" },
                 { icon: GraduationCap, text: "Mentor to 200+ certified beauticians" },
                 { icon: Sparkles, text: "Specialist in HD, Airbrush & Glass-skin bridal" },
               ].map(({ icon: Icon, text }) => (

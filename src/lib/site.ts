@@ -3,7 +3,7 @@ export const SITE = {
   phone: "9842554248",
   phones: ["9842554248", "9942947289", "9842055611"],
   whatsapp: "919842554248",
-  location: "Mettupalayam, Tamil Nadu",
+  location: "Mettupalayam, Karamadai & Velankanni",
 };
 
 export const wa = (msg: string) =>

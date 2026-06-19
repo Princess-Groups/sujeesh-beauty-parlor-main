@@ -110,7 +110,7 @@ function AcademyPage() {
               Become a <span className="text-gradient">Certified Professional Beautician</span>
             </h1>
             <p className="mt-5 text-foreground/75 md:text-lg">
-              Learn from Lakme international trainer Sujatha in Mettupalayam's only dedicated
+              Learn from international trainer Sujatha in Mettupalayam's only dedicated
               professional training institute.
             </p>
             <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-accent px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow-soft">
@@ -138,7 +138,7 @@ function AcademyPage() {
       <Section eyebrow="Why Sujess Academy" title="A real institute. Real outcomes." className="bg-gradient-soft rounded-t-[3rem]">
         <div className="grid gap-5 md:grid-cols-4">
           {[
-            { Icon: Award, title: "International Trainer", desc: "Lakme certified, global experience" },
+            { Icon: Award, title: "International Trainer", desc: "Certified, global experience" },
             { Icon: BookOpen, title: "Practical Training", desc: "Hands-on from day one" },
             { Icon: GraduationCap, title: "Certification", desc: "Industry recognised certificate" },
             { Icon: Sparkles, title: "Separate Academy Setup", desc: "Dedicated learning space" },

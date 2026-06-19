@@ -75,7 +75,7 @@ const SITE = {
   name: "Sujess Beauty Salon & Academy",
   phones: ["9842554248", "9942947289", "9842055611"],
   whatsapp: "919842554248",
-  location: "Mettupalayam, Tamil Nadu"
+  location: "Mettupalayam, Karamadai & Velankanni"
 };
 const wa = (msg) => `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(msg)}`;
 function Footer() {
@@ -290,7 +290,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(FloatingWhatsApp, {})
   ] }) });
 }
-const $$splitComponentImporter$6 = () => import("./salon-DVasjrCf.mjs");
+const $$splitComponentImporter$6 = () => import("./salon-CqTeRymX.mjs");
 const Route$6 = createFileRoute("/salon")({
   head: () => ({
     meta: [{
@@ -338,14 +338,14 @@ const Route$4 = createFileRoute("/gallery")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./contact-Djddih00.mjs");
+const $$splitComponentImporter$3 = () => import("./contact-sF8zSFXC.mjs");
 const Route$3 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
       title: "Contact — Sujess Beauty Salon & Academy, Mettupalayam"
     }, {
       name: "description",
-      content: "Visit, call or WhatsApp Sujess Beauty Salon & Academy in Mettupalayam, Tamil Nadu."
+      content: "Visit, call or WhatsApp Sujess Beauty Salon & Academy in Mettupalayam, Karamadai & Velankanni."
     }],
     links: [{
       rel: "canonical",
@@ -354,7 +354,7 @@ const Route$3 = createFileRoute("/contact")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./bridal-nL0GK3z2.mjs");
+const $$splitComponentImporter$2 = () => import("./bridal-BE_yu7Ok.mjs");
 const Route$2 = createFileRoute("/bridal")({
   head: () => ({
     meta: [{
@@ -373,7 +373,7 @@ const Route$2 = createFileRoute("/bridal")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./academy-BhWfM0XE.mjs");
+const $$splitComponentImporter$1 = () => import("./academy-CRXFtX91.mjs");
 const Route$1 = createFileRoute("/academy")({
   head: () => ({
     meta: [{
@@ -395,7 +395,7 @@ const Route$1 = createFileRoute("/academy")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-D-btvuOl.mjs");
+const $$splitComponentImporter = () => import("./index-BVCcl-12.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
