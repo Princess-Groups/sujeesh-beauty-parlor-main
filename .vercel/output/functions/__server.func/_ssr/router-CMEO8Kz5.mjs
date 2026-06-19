@@ -86,7 +86,7 @@ function Footer() {
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid h-10 w-10 place-items-center overflow-hidden rounded-full bg-gradient-accent p-1 ring-1 ring-primary/20", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: logo, alt: "Sujess logo", className: "h-full w-full object-contain" }) }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display text-lg font-semibold", children: "Sujess" })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-3 text-sm text-muted-foreground", children: "Premium salon, academy & bridal studio in Mettupalayam." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-3 text-sm text-muted-foreground", children: "Premium salon, academy & bridal studio in Mettupalayam, Karamadai & Velankanni." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "text-sm font-semibold", children: "Explore" }),
@@ -290,7 +290,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(FloatingWhatsApp, {})
   ] }) });
 }
-const $$splitComponentImporter$6 = () => import("./salon-CqTeRymX.mjs");
+const $$splitComponentImporter$6 = () => import("./salon-BJzFo9_k.mjs");
 const Route$6 = createFileRoute("/salon")({
   head: () => ({
     meta: [{
@@ -338,7 +338,7 @@ const Route$4 = createFileRoute("/gallery")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./contact-sF8zSFXC.mjs");
+const $$splitComponentImporter$3 = () => import("./contact-iW2Y_QZW.mjs");
 const Route$3 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
@@ -354,7 +354,7 @@ const Route$3 = createFileRoute("/contact")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./bridal-BE_yu7Ok.mjs");
+const $$splitComponentImporter$2 = () => import("./bridal-EJl3Go8R.mjs");
 const Route$2 = createFileRoute("/bridal")({
   head: () => ({
     meta: [{
@@ -373,7 +373,7 @@ const Route$2 = createFileRoute("/bridal")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./academy-CRXFtX91.mjs");
+const $$splitComponentImporter$1 = () => import("./academy-CfYq6SN4.mjs");
 const Route$1 = createFileRoute("/academy")({
   head: () => ({
     meta: [{
@@ -395,7 +395,7 @@ const Route$1 = createFileRoute("/academy")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-BVCcl-12.mjs");
+const $$splitComponentImporter = () => import("./index-BluulB5K.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

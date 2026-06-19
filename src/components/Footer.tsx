@@ -15,7 +15,7 @@ export function Footer() {
             <span className="font-display text-lg font-semibold">Sujess</span>
           </div>
           <p className="mt-3 text-sm text-muted-foreground">
-            Premium salon, academy & bridal studio in Mettupalayam.
+            Premium salon, academy & bridal studio in Mettupalayam, Karamadai & Velankanni.
           </p>
         </div>
         <div>
