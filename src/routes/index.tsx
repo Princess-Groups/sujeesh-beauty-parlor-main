@@ -39,7 +39,7 @@ function Home() {
               </div>
             </div>
             <h1 className="mt-5 font-display text-4xl font-semibold leading-[1.05] md:text-6xl lg:text-7xl">
-              Premium <span className="text-gradient">Beauty Academy</span> in Mettupalayam
+              Premium <span className="text-gradient">Beauty Salon &amp; Academy</span> in Mettupalayam
             </h1>
             <p className="mt-5 text-base text-foreground/75 md:text-lg">
               Beauty Salon · Academy · Bridal Studio — crafted by international makeup artist Sujatha.

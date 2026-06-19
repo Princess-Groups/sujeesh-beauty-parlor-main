@@ -9,6 +9,7 @@ import real2 from "@/assets/bridal-2.jpeg";
 import real3 from "@/assets/bridal-3.jpeg";
 import real4 from "@/assets/bridal-4.jpeg";
 import real5 from "@/assets/bridal-5.jpeg";
+import real6 from "@/assets/bridal-6.png";
 
 export const Route = createFileRoute("/bridal")({
   head: () => ({
@@ -78,7 +79,7 @@ function BridalPage() {
       {/* REAL BRIDES GALLERY */}
       <Section eyebrow="Real brides" title="Crafted at Sujess Bridal Studio" subtitle="Real brides, real moments — straight from our studio in Mettupalayam.">
         <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4 [&>*]:break-inside-avoid">
-          {[real1, real3, real2, real4, real5].map((src, i) => (
+          {[real1, real3, real2, real4, real5, real6].map((src, i) => (
             <div key={i} className="overflow-hidden rounded-3xl bg-card shadow-soft transition hover:shadow-luxe">
               <img
                 src={src}
