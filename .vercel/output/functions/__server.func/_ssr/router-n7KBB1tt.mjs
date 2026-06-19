@@ -290,7 +290,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(FloatingWhatsApp, {})
   ] }) });
 }
-const $$splitComponentImporter$6 = () => import("./salon-CWef3wv2.mjs");
+const $$splitComponentImporter$6 = () => import("./salon-DVasjrCf.mjs");
 const Route$6 = createFileRoute("/salon")({
   head: () => ({
     meta: [{
@@ -338,7 +338,7 @@ const Route$4 = createFileRoute("/gallery")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./contact-BbBDig6U.mjs");
+const $$splitComponentImporter$3 = () => import("./contact-Djddih00.mjs");
 const Route$3 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
@@ -354,7 +354,7 @@ const Route$3 = createFileRoute("/contact")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./bridal-Bzw7P4MW.mjs");
+const $$splitComponentImporter$2 = () => import("./bridal-nL0GK3z2.mjs");
 const Route$2 = createFileRoute("/bridal")({
   head: () => ({
     meta: [{
@@ -373,7 +373,7 @@ const Route$2 = createFileRoute("/bridal")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./academy-F83Qg60a.mjs");
+const $$splitComponentImporter$1 = () => import("./academy-BhWfM0XE.mjs");
 const Route$1 = createFileRoute("/academy")({
   head: () => ({
     meta: [{
@@ -395,7 +395,7 @@ const Route$1 = createFileRoute("/academy")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-BnnYch4j.mjs");
+const $$splitComponentImporter = () => import("./index-D-btvuOl.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

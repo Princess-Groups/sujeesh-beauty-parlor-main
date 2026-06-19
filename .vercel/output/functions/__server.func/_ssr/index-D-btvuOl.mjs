@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
 import { W as WaButton, S as Section } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-11ZjEogP.mjs";
+import { w as wa } from "./router-n7KBB1tt.mjs";
 import { h as heroImg } from "./hero-salon-OiVVmgKh.mjs";
 import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { a as MapPin, d as Sparkles, f as ArrowRight, S as Star, A as Award, E as Earth, G as GraduationCap, g as Scissors, c as Crown } from "../_libs/lucide-react.mjs";
@@ -42,7 +42,7 @@ function Home() {
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "mt-5 font-display text-4xl font-semibold leading-[1.05] md:text-6xl lg:text-7xl", children: [
             "Premium ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient", children: "Beauty Academy" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gradient", children: "Beauty Salon & Academy" }),
             " in Mettupalayam"
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-5 text-base text-foreground/75 md:text-lg", children: "Beauty Salon · Academy · Bridal Studio — crafted by international makeup artist Sujatha." }),
