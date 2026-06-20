@@ -4,12 +4,14 @@ import { wa } from "@/lib/site";
 import { Crown, Sparkles } from "lucide-react";
 import bridal from "@/assets/bridal.jpg";
 import bridalHero from "@/assets/bridal-hero.jpg";
-import real1 from "@/assets/bridal-1.jpeg";
-import real2 from "@/assets/bridal-2.jpeg";
-import real3 from "@/assets/bridal-3.jpeg";
-import real4 from "@/assets/bridal-4.jpeg";
+import real1 from "@/assets/bridal-gallery-2.png";
+import real2 from "@/assets/bridal-gallery-5.png";
+import real3 from "@/assets/bridal-gallery-7.png";
+import real4 from "@/assets/bridal-gallery-6.jpg";
 import real5 from "@/assets/bridal-5.jpeg";
 import real6 from "@/assets/bridal-6.png";
+import real7 from "@/assets/bridal-gallery-3.png";
+import real8 from "@/assets/bridal-gallery-4.png";
 
 export const Route = createFileRoute("/bridal")({
   head: () => ({
@@ -79,7 +81,7 @@ function BridalPage() {
       {/* REAL BRIDES GALLERY */}
       <Section eyebrow="Real brides" title="Crafted at Sujess Bridal Studio" subtitle="Real brides, real moments — straight from our studio in Mettupalayam.">
         <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4 [&>*]:break-inside-avoid">
-          {[real1, real3, real2, real4, real5, real6].map((src, i) => (
+          {[real1, real3, real2, real4, real5, real6, real7, real8].map((src, i) => (
             <div key={i} className="overflow-hidden rounded-3xl bg-card shadow-soft transition hover:shadow-luxe">
               <img
                 src={src}

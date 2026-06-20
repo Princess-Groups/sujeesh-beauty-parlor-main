@@ -6,8 +6,8 @@ import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { h as hair, c as cut, p as pedi, f as facial, t as thread, w as wax } from "./salon-waxing-BR3DcATk.mjs";
 const airbrush = "/assets/bridal-hero-BQe3YNnx.jpg";
 const glass = "/assets/bridal-D0EyuHCh.jpg";
-const hd = "/assets/bridal-3-Dj2xnRv6.jpeg";
-const reception = "/assets/bridal-2-nX7sKBeF.jpeg";
+const hd = "/assets/makeup-hd-Dj2xnRv6.jpg";
+const reception = "/assets/makeup-reception-nX7sKBeF.jpg";
 const items = [{
   img: hair,
   label: "Hair Treatment"

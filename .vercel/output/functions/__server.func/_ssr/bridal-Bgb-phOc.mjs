@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { W as WaButton, S as Section } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-CMEO8Kz5.mjs";
+import { w as wa } from "./router-G-XU69qc.mjs";
 import { b as bridal } from "./bridal-BX3Du8Hi.mjs";
 import { c as Crown, d as Sparkles } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";
@@ -20,12 +20,14 @@ import "async_hooks";
 import "stream";
 import "../_libs/isbot.mjs";
 const bridalHero = "/assets/bridal-hero-BQe3YNnx.jpg";
-const real1 = "/assets/bridal-1-eUfTXS6b.jpeg";
-const real2 = "/assets/bridal-2-nX7sKBeF.jpeg";
-const real3 = "/assets/bridal-3-Dj2xnRv6.jpeg";
-const real4 = "/assets/bridal-D0EyuHCh.jpg";
+const real1 = "/assets/bridal-gallery-2-DSL9fDcg.png";
+const real2 = "/assets/bridal-gallery-5-CPXLp5hN.png";
+const real3 = "/assets/bridal-gallery-7-CGM1eZFH.png";
+const real4 = "/assets/bridal-gallery-6-D6FWOd-Q.jpg";
 const real5 = "/assets/bridal-5-dfFaC-cc.jpeg";
 const real6 = "/assets/bridal-6-DKu0wYXM.png";
+const real7 = "/assets/bridal-gallery-3-Dvm5ZadJ.png";
+const real8 = "/assets/bridal-gallery-4-Dp1c2ILr.png";
 function BridalPage() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "relative overflow-hidden bg-gradient-hero", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 md:grid-cols-2 md:px-6 md:py-24", children: [
@@ -52,7 +54,7 @@ function BridalPage() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: wa("Hi, I want to know about Sujess bridal packages"), className: "inline-flex items-center gap-2 rounded-full bg-card px-6 py-3 text-sm font-semibold text-foreground shadow-soft", children: "Get full package details" }) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Section, { eyebrow: "Bridal look", title: "Our Signature Bridal Makeup", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mx-auto max-w-3xl overflow-hidden rounded-3xl bg-card shadow-luxe", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: bridalHero, alt: "Sujess signature bridal makeup", loading: "lazy", className: "w-full object-cover" }) }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Section, { eyebrow: "Real brides", title: "Crafted at Sujess Bridal Studio", subtitle: "Real brides, real moments — straight from our studio in Mettupalayam.", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4 [&>*]:break-inside-avoid", children: [real1, real3, real2, real4, real5, real6].map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "overflow-hidden rounded-3xl bg-card shadow-soft transition hover:shadow-luxe", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src, alt: `Sujess real bride look ${i + 1} — bridal makeup in Mettupalayam`, loading: "lazy", className: "w-full object-cover transition duration-700 hover:scale-105" }) }, i)) }) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Section, { eyebrow: "Real brides", title: "Crafted at Sujess Bridal Studio", subtitle: "Real brides, real moments — straight from our studio in Mettupalayam.", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4 [&>*]:break-inside-avoid", children: [real1, real3, real2, real4, real5, real6, real7, real8].map((src, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "overflow-hidden rounded-3xl bg-card shadow-soft transition hover:shadow-luxe", children: /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src, alt: `Sujess real bride look ${i + 1} — bridal makeup in Mettupalayam`, loading: "lazy", className: "w-full object-cover transition duration-700 hover:scale-105" }) }, i)) }) })
   ] });
 }
 export {
