@@ -290,7 +290,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(FloatingWhatsApp, {})
   ] }) });
 }
-const $$splitComponentImporter$6 = () => import("./salon-AJ9VKwbJ.mjs");
+const $$splitComponentImporter$6 = () => import("./salon-VtFyJom7.mjs");
 const Route$6 = createFileRoute("/salon")({
   head: () => ({
     meta: [{
@@ -322,7 +322,7 @@ const Route$5 = createFileRoute("/reviews")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-const $$splitComponentImporter$4 = () => import("./gallery-Bd8hM6IL.mjs");
+const $$splitComponentImporter$4 = () => import("./gallery-BDSTxoSY.mjs");
 const Route$4 = createFileRoute("/gallery")({
   head: () => ({
     meta: [{
@@ -338,7 +338,7 @@ const Route$4 = createFileRoute("/gallery")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./contact--5btjHxo.mjs");
+const $$splitComponentImporter$3 = () => import("./contact-CU3I6I_F.mjs");
 const Route$3 = createFileRoute("/contact")({
   head: () => ({
     meta: [{
@@ -354,7 +354,7 @@ const Route$3 = createFileRoute("/contact")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./bridal-Bgb-phOc.mjs");
+const $$splitComponentImporter$2 = () => import("./bridal-DiHBfkZS.mjs");
 const Route$2 = createFileRoute("/bridal")({
   head: () => ({
     meta: [{
@@ -373,7 +373,7 @@ const Route$2 = createFileRoute("/bridal")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./academy-dxfndpEh.mjs");
+const $$splitComponentImporter$1 = () => import("./academy-CWXaCH3Q.mjs");
 const Route$1 = createFileRoute("/academy")({
   head: () => ({
     meta: [{
@@ -395,7 +395,7 @@ const Route$1 = createFileRoute("/academy")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-Dk2Cp3q8.mjs");
+const $$splitComponentImporter = () => import("./index-BzSzQt9J.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

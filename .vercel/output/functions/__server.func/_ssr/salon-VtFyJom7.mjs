@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { S as Section, W as WaButton } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-G-XU69qc.mjs";
+import { w as wa } from "./router-Y0OK4EwP.mjs";
 import { h as hair, c as cut, p as pedi, f as facial, t as thread, w as wax } from "./salon-waxing-BR3DcATk.mjs";
 import "../_libs/tanstack__query-core.mjs";
 import "../_libs/tanstack__react-query.mjs";

@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { S as Section, W as WaButton } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-G-XU69qc.mjs";
+import { w as wa } from "./router-Y0OK4EwP.mjs";
 import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { G as GraduationCap, d as Sparkles, A as Award, B as BookOpen, C as Clock, e as CircleCheck } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";

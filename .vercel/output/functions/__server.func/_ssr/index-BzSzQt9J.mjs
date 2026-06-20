@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
 import { W as WaButton, S as Section } from "./Section-BxkKs8Cm.mjs";
-import { w as wa } from "./router-G-XU69qc.mjs";
+import { w as wa } from "./router-Y0OK4EwP.mjs";
 import { h as heroImg } from "./hero-salon-OiVVmgKh.mjs";
 import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { a as MapPin, d as Sparkles, f as ArrowRight, S as Star, A as Award, E as Earth, G as GraduationCap, g as Scissors, c as Crown } from "../_libs/lucide-react.mjs";

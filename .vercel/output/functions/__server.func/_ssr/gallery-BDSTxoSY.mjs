@@ -1,10 +1,10 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { S as Section } from "./Section-BxkKs8Cm.mjs";
 import { h as heroImg } from "./hero-salon-OiVVmgKh.mjs";
-import { b as bridal } from "./bridal-BX3Du8Hi.mjs";
 import { a as academyImg } from "./academy-a1-0x1zR.mjs";
 import { h as hair, c as cut, p as pedi, f as facial, t as thread, w as wax } from "./salon-waxing-BR3DcATk.mjs";
-const airbrush = "/assets/bridal-hero-BQe3YNnx.jpg";
+const bridal = "/assets/bridal-D0EyuHCh.jpg";
+const airbrush = "/assets/makeup-airbrush-BQe3YNnx.jpg";
 const glass = "/assets/bridal-D0EyuHCh.jpg";
 const hd = "/assets/makeup-hd-Dj2xnRv6.jpg";
 const reception = "/assets/makeup-reception-nX7sKBeF.jpg";
